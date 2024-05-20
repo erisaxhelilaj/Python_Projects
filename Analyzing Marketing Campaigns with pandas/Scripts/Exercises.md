@@ -1,12 +1,12 @@
 # Exercises with 🐍
-In this repository, I will show tpandas basics including importing datasets, exploratory analysis, and basic plotting.
+In this repository, I will show pandas basics including importing datasets, exploratory analysis, and basic plotting.
 
 
 ### :arrow_forward:`Step 1` - Importing the dataset
 
 #### :arrow_right: Exercise 1
 
-In this exercise, I will begin by importing pandas and the marketing dataset into my environment.
+In this exercise, I will begin by importing pandas, matplotlib and the marketing dataset into my environment.
 ```python
 #Write your code below this line 👇
 import pandas as pd
@@ -116,7 +116,7 @@ print(daily_users.head())
 ### :arrow_forward:`Step 7` - Daily marketing reach by channel
 
 #### :arrow_right: Exercise 7
-In the previous exercise, I created a ***daily_subscribers*** DataFrame, which contained the number of users who subscribed each day. While this was a great first step, it is challenging to interpret daily trends by looking at a table. To make it easier for me and business stakeholders to notice subscriber trends, I will visualize MY results using a line plot.
+In the previous exercise, I created a **daily_subscribers** DataFrame, which contained the number of users who subscribed each day. While this was a great first step, it is challenging to interpret daily trends by looking at a table. To make it easier for me and business stakeholders to notice subscriber trends, I will visualize my results using a line plot.
 
 
 ```python
@@ -135,6 +135,8 @@ plt.xticks(rotation = 45)
 plt.show()
 ```
 
+#### :dart: Visualizing daily marketing reach
+![image](https://github.com/erisaxhelilaj/Python_Projects/blob/master/Analyzing%20Marketing%20Campaigns%20with%20pandas/DataSets/Figure_1.png)
 
 
 
