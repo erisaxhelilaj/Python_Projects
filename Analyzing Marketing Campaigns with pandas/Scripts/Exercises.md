@@ -63,9 +63,10 @@ print(marketing['is_retained'].dtype)
 
 #### :arrow_right: Exercise 4
 Write a program that will add two columns to **marketing**:
+<p>
 
-1-**channel_code**: represents the numeric value of the subscribing channel
-2-**is_correct_lang**: conveys whether the ad was shown to the user in their preferred language
+ 1- **channel_code** : represents the numeric value of the subscribing channel </p>
+ 2- **is_correct_lang** : conveys whether the ad was shown to the user in their preferred language </p>
 
 Mapping for channels
 ```python
